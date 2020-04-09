@@ -12,6 +12,3 @@ export default function MentalHealth() {
         </div>
     )
 }
-import React from 'react'
-
-
