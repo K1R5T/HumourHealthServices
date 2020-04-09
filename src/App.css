@@ -36,4 +36,28 @@ div.tip-container{
   margin-top: 3px;
   margin-bottom: 10px;
   padding:0px
+>>>>>>> ffdd61a352b9f5131eeeef3e91b1f7b6937aee67
+}
+
+<<<<<<< HEAD
+*{
+  padding: 5px;
+}
+
+/* Navbar css */
+
+nav{
+  min-height: 7vh;
+  background-color:lightgray;
+}
+
+.navbarUL{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 20px;
+} 
+
+ul li{
+  list-style: none;
 }
