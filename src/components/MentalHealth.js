@@ -1,3 +1,4 @@
+
 import React from 'react';
 import PhysicalHealthCard from './PhysicalHealthCard'
 
@@ -11,3 +12,14 @@ export default function MentalHealth() {
         </div>
     )
 }
+=======
+import React from 'react'
+
+export default function MentalHealth() {
+    return (
+        <div>
+            <h1>Mental Health</h1>
+        </div>
+    )
+}
+

@@ -5,18 +5,15 @@ export default function Navbar() {
     return (
         <div className="navbarContainer">
             <nav className="navbar">
-                <Link to="/">
-                    <h2 className="navwelcome">Welcome</h2>
-                </Link>
                 <ul className="navbarUL">
 
-                    <Link to="/Home">
+                    <Link to="/" exact>
                         <li className="homeLink">Home</li>
                     </Link>
 
-                    <Link to="/PhysicalHealth">
+                    {/* <Link to="/PhysicalHealth">
                         <li className="physicalHealth">Physical Health</li>
-                    </Link>
+                    </Link> */}
 
                     <Link to="/MentalHealth">
                         <li className="mentalHealth">Mental Health</li>
@@ -25,6 +22,11 @@ export default function Navbar() {
                     <Link to="/ChatBot">
                         <li className="chatBot">ChatBot Receptionist</li>
                     </Link>
+
+                    <Link to="Signup">
+                        <li className="signUp">Sign Up</li>
+                    </Link>
+
                 </ul>
             </nav>
         </div>

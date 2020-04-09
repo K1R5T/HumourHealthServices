@@ -36,7 +36,12 @@ div.tip-container{
   margin-top: 3px;
   margin-bottom: 10px;
   padding:0px
+
+*{
+  padding: 5px;
 }
+  
+  }
 
 .phys-image-size{
   height:50px;
@@ -47,4 +52,22 @@ div.tip-container{
 .mind-holder{
   border-radius: 25px;
   margin-bottom: 20px;
+}
+
+/* Navbar css */
+
+nav{
+  min-height: 7vh;
+  background-color:lightgray;
+}
+
+.navbarUL{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 20px;
+} 
+
+ul li{
+  list-style: none;
 }
