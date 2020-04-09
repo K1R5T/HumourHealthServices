@@ -1,7 +1,7 @@
 /* Page Set Up */
 
 body{
-  margin:0 ;
+  margin:0;
   padding:0;
   background-color: aquamarine;
 }
@@ -36,12 +36,22 @@ div.tip-container{
   margin-top: 3px;
   margin-bottom: 10px;
   padding:0px
->>>>>>> ffdd61a352b9f5131eeeef3e91b1f7b6937aee67
-}
 
-<<<<<<< HEAD
 *{
   padding: 5px;
+}
+  
+  }
+
+.phys-image-size{
+  height:50px;
+  width:50px;
+  float: right;
+}
+
+.mind-holder{
+  border-radius: 25px;
+  margin-bottom: 20px;
 }
 
 /* Navbar css */
