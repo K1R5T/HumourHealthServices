@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import {Link} from "react-router-dom";
+// import {Link} from "react-router-dom";
+import SignIn from './SignIn';
 
 class Home extends Component{
     render(){
@@ -8,11 +9,7 @@ class Home extends Component{
                 <div className="welcomeWrapper">
                     <h1 className="welcomeTitle">Welcome to Humour Health Services</h1>
 
-                    <div className="chatbot-btn-div">
-                        <Link to="/Home" exact>
-                                <button className="chatbot-btn">Chat Bot</button>
-                        </Link>
-                    </div>
+                    <SignIn/>
 
                 </div>
             </div>

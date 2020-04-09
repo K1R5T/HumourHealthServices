@@ -1,8 +1,8 @@
-import React from 'react';
-import './App.css';
+import React from 'react'
 
 
-class App extends React.Component {
+
+class SignUp extends React.Component {
   state = {
     userName:'',
     email:'',
@@ -12,7 +12,7 @@ class App extends React.Component {
   createUser = async (event) => {
     event.preventDefault();
 
-    let response = await fetch('http://localhost:3007/createUser', {
+    let response = await fetch('http://localhost:3000/createUser', {
       method: 'post',
       body: JSON.stringify(this.state),
       headers: {"Content-Type": "application/json"}
@@ -50,4 +50,4 @@ class App extends React.Component {
   }
 }
 
-export default App;
+export default SignUp;

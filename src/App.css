@@ -1,7 +1,7 @@
 /* Page Set Up */
 
 body{
-  margin:0 ;
+  margin:0;
   padding:0;
   background-color: aquamarine;
 }
@@ -36,4 +36,38 @@ div.tip-container{
   margin-top: 3px;
   margin-bottom: 10px;
   padding:0px
+
+*{
+  padding: 5px;
+}
+  
+  }
+
+.phys-image-size{
+  height:50px;
+  width:50px;
+  float: right;
+}
+
+.mind-holder{
+  border-radius: 25px;
+  margin-bottom: 20px;
+}
+
+/* Navbar css */
+
+nav{
+  min-height: 7vh;
+  background-color:lightgray;
+}
+
+.navbarUL{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 20px;
+} 
+
+ul li{
+  list-style: none;
 }
