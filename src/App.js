@@ -5,7 +5,7 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import ChatBot from './components/ChatBot';
 import MentalHealth from './components/MentalHealth';
-// import PhysicalHealth from './components/PhysicalHealth';
+import PhysicalHealth from './components/PhysicalHealth';
 import SignUp from './components/SignUp';
 import SignIn from './components/SignIn';
 
@@ -27,7 +27,7 @@ class App extends Component {
 
         <Route path='/mentalHealth' component={MentalHealth}/>
 
-        {/* <Route path='/physicalHealth' component={PhysicalHealth}/> */}
+        <Route path='/physicalHealth' component={PhysicalHealth}/>
 
         <Route path='/signup' component={SignUp}/>
         

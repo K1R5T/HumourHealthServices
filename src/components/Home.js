@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-// import {Link} from "react-router-dom";
 import SignIn from './SignIn';
 
 class Home extends Component{
@@ -7,7 +6,7 @@ class Home extends Component{
         return (
             <div className="container">
                 <div className="welcomeWrapper">
-                    <h1 className="welcomeTitle">Welcome to Humour Health Services</h1>
+                    <h1 className="welcomeTitle">Welcome to Human Health Services</h1>
 
                     <SignIn/>
 

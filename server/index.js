@@ -65,6 +65,6 @@ app.use(session({
 
 app.use('/', router);
 
-app.listen(3005, () => {
-	console.log('listening on port 3005')
+app.listen(3000, () => {
+	console.log('listening on port 3000')
 });
