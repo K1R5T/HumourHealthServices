@@ -7,13 +7,13 @@ export default function Navbar() {
             <nav className="navbar">
                 <ul className="navbarUL">
 
-                    <Link to="/" exact>
+                    <Link to="/">
                         <li className="homeLink">Home</li>
                     </Link>
 
-                    {/* <Link to="/PhysicalHealth">
+                    <Link to="/PhysicalHealth">
                         <li className="physicalHealth">Physical Health</li>
-                    </Link> */}
+                    </Link>
 
                     <Link to="/MentalHealth">
                         <li className="mentalHealth">Mental Health</li>
