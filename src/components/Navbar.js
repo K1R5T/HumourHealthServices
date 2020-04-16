@@ -23,6 +23,10 @@ export default function Navbar() {
                         <li className="chatBot-nav">ChatBot Receptionist</li>
                     </Link>
 
+                    <Link to="/foodBank">
+                        <li className="foodBank-nav">Nearest Food Bank</li>
+                    </Link>
+      
                     <Link to="/UsefulLinks">
                         <li className="usefulLinks-nav">Useful Links</li>
                     </Link>

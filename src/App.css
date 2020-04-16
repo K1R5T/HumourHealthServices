@@ -14,12 +14,7 @@ body{
 
 /* Home Page css */
 .homeContainer{
-  /* display: flex; */
-  /* justify-content: center; */
   text-align: center;
-  /* background-color: indigo; */
-  /* min-height: 900px;
-  font-size: 30px; */
 } 
 .logoContainer{
   padding-top: 10%;
@@ -29,6 +24,7 @@ body{
 
 .physical-container{
   font-family: 'Dosis', sans-serif;
+  font-size: 23px;
 }
 
 .headerquote{
@@ -79,6 +75,7 @@ nav{
   text-align: center;
   justify-content: space-evenly;
   /* background-color:lightsteelblue */
+  font-family: 'Dosis', sans-serif;
 }
 
 .navbarUL{
@@ -86,8 +83,6 @@ nav{
   flex-direction: row;
   justify-content: space-evenly;
   font-size: 30px;
-  /* background-color: powderblue; */
-  /* border-radius: 25px; */
   text-decoration: none;
 } 
 
@@ -95,8 +90,6 @@ ul li{
   list-style: none;
   color: black;
   text-decoration: none;
-  /* background-color: azure; */
-  /* border-radius: 25px; */
 }
 
 .homeLink-nav{
@@ -121,6 +114,10 @@ ul li{
 
 .signIn-nav{
   margin-right: 10px;
+}
+
+.foodBank-nav{
+  margin-right: 50px;
 }
 
 /* chatbot css */
@@ -157,4 +154,10 @@ ul li{
 
 .login{
   font-size: 30px;
+}
+
+/* food bank */
+
+.foodbank-container{
+  font-family: 'Dosis', sans-serif;
 }
