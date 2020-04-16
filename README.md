@@ -1,5 +1,5 @@
 ## Human Health Service
 
-This is Matthew & Kirtys first full stack project.
+This is Matthew & Kirstys first full stack project.
 
 

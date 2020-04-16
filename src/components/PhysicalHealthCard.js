@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import PhysicalHealthCardSingle from './PhysicalHealthCardSingle';
-import cough from '../img/rest.png';
 
 
 class PhysicalHealthCard extends Component {
@@ -33,7 +32,6 @@ class PhysicalHealthCard extends Component {
         return (
             <div className="tip-container">
                 {eachtipphys}
-                {cough}
             </div>
         )
     }

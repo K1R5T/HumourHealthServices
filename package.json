@@ -2,6 +2,7 @@
   "name": "hhs",
   "version": "0.1.0",
   "private": true,
+  "proxy": "https://www.givefood.org.uk/api/1/foodbanks/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -13,6 +14,7 @@
     "express": "^4.17.1",
     "express-handlebars": "^4.0.3",
     "express-session": "^1.17.0",
+    "fetch": "^1.1.0",
     "mongoose": "^5.9.9",
     "nanoid": "^3.1.3",
     "react": "^16.13.1",
