@@ -5,12 +5,12 @@ body{
   padding:0;
   /* background-color: azure; */
 }
-/* Page Set Up End */
+ /* Page Set Up End */
 @media screen and (max-width: 1200px) and (min-width: 350px), (max-height: 1200px) and (min-height: 350px) {
   body {
-    background-color: lightslategray;
+    background-color: rgb(68, 248, 209);
   }
-}
+} 
 
 /* Home Page css */
 .homeContainer{
@@ -122,7 +122,7 @@ ul li{
 }
 
 .link{
-  color: blue;
+  color: rgb(55, 5, 233);
 }
 
 /* signIn and signup css */
