@@ -8,7 +8,7 @@ class Home extends Component{
         return (
             <div className="homeContainer">
                 <div className="welcomeWrapper">
-                    <h1 className="welcomeTitle">Welcome to Human Health Services</h1>
+                    <h1 className="welcomeTitle">Welcome to Humour Health Services</h1>
                 </div>
                 <div className="logoContainer">
                     <img className="logo" src={HHS} alt="HHS Logo"/>
