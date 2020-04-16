@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Button, FormGroup, FormControl, FormLabel} from "react-bootstrap";
+import SignUp from "./SignUp";
 
 export default function Login(props) {
   const [email, setEmail] = useState("");
@@ -14,7 +15,8 @@ export default function Login(props) {
   }
 
   return (
-    <div className="Login">
+    <div className="login">
+      <h3>Sign In</h3>
       <form onSubmit={handleSubmit}>
         <FormGroup controlId="email" bssize="large">
           <FormLabel>Email</FormLabel>
@@ -37,6 +39,8 @@ export default function Login(props) {
           Login
         </Button>
       </form>
+      <h3>Sign Up</h3>
+      <SignUp/>
     </div>
   );
 }
