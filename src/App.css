@@ -57,6 +57,7 @@ div.tip-container{
 *{
   padding: 5px;
   text-decoration: none;
+  /* display: flex; */
 }
 
 .phys-image-size{
@@ -74,6 +75,9 @@ div.tip-container{
 
 nav{
   min-height: 7vh;
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
   /* background-color:lightsteelblue */
 }
 
@@ -93,6 +97,30 @@ ul li{
   text-decoration: none;
   /* background-color: azure; */
   /* border-radius: 25px; */
+}
+
+.homeLink-nav{
+  margin-right: 50px;
+}
+
+.physicalHealth-nav{
+  margin-right: 50px;
+}
+
+.mentalHealth-nav{
+  margin-right: 50px;
+}
+
+.chatBot-nav{
+  margin-right: 50px;
+}
+
+.usefulLinks-nav{
+  margin-right: 50px;
+}
+
+.signIn-nav{
+  margin-right: 10px;
 }
 
 /* chatbot css */

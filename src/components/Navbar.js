@@ -8,27 +8,27 @@ export default function Navbar() {
                 <ul className="navbarUL">
 
                     <Link to="/">
-                        <li className="homeLink">Home</li>
+                        <li className="homeLink-nav">Home</li>
                     </Link>
 
                     <Link to="/PhysicalHealth">
-                        <li className="physicalHealth">Physical Health</li>
+                        <li className="physicalHealth-nav">Physical Health</li>
                     </Link>
 
                     <Link to="/MentalHealth">
-                        <li className="mentalHealth">Mental Health</li>
+                        <li className="mentalHealth-nav">Mental Health</li>
                     </Link>
 
                     <Link to="/ChatBot">
-                        <li className="chatBot">ChatBot Receptionist</li>
+                        <li className="chatBot-nav">ChatBot Receptionist</li>
                     </Link>
 
                     <Link to="/UsefulLinks">
-                        <li className="usefulLinks">Useful Links</li>
+                        <li className="usefulLinks-nav">Useful Links</li>
                     </Link>
 
                     <Link to="/SignIn">
-                        <li className="signIn">Sign In</li>
+                        <li className="signIn-nav">Sign In</li>
                     </Link>
 
                 </ul>
