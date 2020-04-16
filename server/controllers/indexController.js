@@ -2,7 +2,7 @@ exports.getSession = (req, res) => {
     console.log(req.session);
     console.log(req.sessionID);
     
-    // req.session.userName = 'Kirsty';
+    req.session.userName = 'k';
     req.session.save();
 
     res.send('hello world');
