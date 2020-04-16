@@ -9,6 +9,7 @@ import PhysicalHealth from './components/PhysicalHealth';
 import SignUp from './components/SignUp';
 import SignIn from './components/SignIn';
 import FoodBank from './components/NearestFoodBank';
+import UsefulLinks from './components/UsefulLinks';
 
 
 class App extends Component {
@@ -35,6 +36,8 @@ class App extends Component {
         <Route path="/signin" exact component={SignIn} />
 
         <Route path="/foodBank" component={FoodBank}/>
+      
+        <Route path="/usefulLinks" component={UsefulLinks}/>
 
       </Switch>
 

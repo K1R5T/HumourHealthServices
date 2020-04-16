@@ -3,10 +3,27 @@
 body{
   margin:0;
   padding:0;
-  background-color: azure
+  /* background-color: azure; */
 }
-/* Page Set Up End */
+ /* Page Set Up End */
+@media screen and (max-width: 1200px) and (min-width: 350px), (max-height: 1200px) and (min-height: 350px) {
+  body {
+    background-color: rgb(68, 248, 209);
+  }
+} 
 
+/* Home Page css */
+.homeContainer{
+  /* display: flex; */
+  /* justify-content: center; */
+  text-align: center;
+  /* background-color: indigo; */
+  /* min-height: 900px;
+  font-size: 30px; */
+} 
+.logoContainer{
+  padding-top: 10%;
+}
 
 /* PhysicalHealth.js */
 
@@ -39,6 +56,7 @@ div.tip-container{
 }
 *{
   padding: 5px;
+  text-decoration: none;
 }
 
 .phys-image-size{
@@ -63,17 +81,18 @@ nav{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  font-size: 20px;
-  background-color: powderblue;
-  border-radius: 25px;
+  font-size: 30px;
+  /* background-color: powderblue; */
+  /* border-radius: 25px; */
+  text-decoration: none;
 } 
 
 ul li{
   list-style: none;
   color: black;
   text-decoration: none;
-  background-color: azure;
-  border-radius: 25px;
+  /* background-color: azure; */
+  /* border-radius: 25px; */
 }
 
 /* chatbot css */
@@ -88,4 +107,26 @@ ul li{
   display: flex;
   justify-content: center;
   margin: 0 auto;
+}
+
+/* usefull Links css */
+
+.usefulContainer{
+  font-size: 23px;
+}
+
+.usefultitleContainer{
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.link{
+  color: rgb(55, 5, 233);
+}
+
+/* signIn and signup css */
+
+.login{
+  font-size: 30px;
 }

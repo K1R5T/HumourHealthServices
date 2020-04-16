@@ -101,6 +101,10 @@ app.use(session({
 
 app.use('/', router);
 
+<<<<<<< HEAD
+// app.listen(3000, () => {
+=======
 app.listen(3000, () => {
 	console.log('listening on port 3000')
 });
+>>>>>>> 77ca5850b200d12a310cb5617172228b52628338

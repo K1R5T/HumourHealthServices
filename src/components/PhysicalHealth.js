@@ -1,7 +1,6 @@
 import React from 'react';
 import PhysicalHealthCard from './PhysicalHealthCard';
 
-
 export default function PhysicalHealth() {
 
     return (

@@ -30,6 +30,14 @@ export default function Navbar() {
                     <Link to="Signup">
                         <li className="signUp">Sign Up</li>
                     </Link>
+      
+                    <Link to="/UsefulLinks">
+                        <li className="usefulLinks">Useful Links</li>
+                    </Link>
+
+                    <Link to="/SignIn">
+                        <li className="signIn">Sign In</li>
+                    </Link>
 
                 </ul>
             </nav>
