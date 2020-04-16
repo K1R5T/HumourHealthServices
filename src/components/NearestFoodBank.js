@@ -23,7 +23,7 @@ class NearestFoodBank extends Component {
 
 
         const proxyurl = "https://cors-anywhere.herokuapp.com/";
-const url = "https://www.givefood.org.uk/api/1/foodbanks/search/?address=${this.state.query}"; // site that doesn’t send Access-Control-*
+const url = "https://www.givefood.org.uk/api/1/foodbanks/"; // site that doesn’t send Access-Control-*
 fetch(proxyurl + url) 
 .then((result)=>{
     result.json().then((resp)=>{
@@ -40,7 +40,7 @@ fetch(proxyurl + url)
         const data=this.state.data
         console.log(data)
         return (
-            <div>
+            <div className="foodbank-container">
             {
                 data?
                 <div>
